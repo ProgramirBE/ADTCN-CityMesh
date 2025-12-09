@@ -1,0 +1,16 @@
+{
+  "id": "chatcmpl-mock123",
+  "object": "chat.completion",
+  "created": 1677652288,
+  "model": "gpt-4o-mini",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Om de batterij van uw drone te vervangen, opent u het achterste compartiment en ontkoppelt u de hoofdkabel."
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

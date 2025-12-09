@@ -1,0 +1,6 @@
+POST http://localhost:8081/api/ai/ask
+Content-Type: application/json
+
+{
+  "question": "Comment vérifier les hélices ?"
+}

@@ -1,0 +1,8 @@
+be\odisee\citymesh\service\DroneService.class
+be\odisee\citymesh\CitymeshCrudApplication.class
+be\odisee\citymesh\RepositoryConfig.class
+be\odisee\citymesh\dao\EvenementRepository.class
+be\odisee\citymesh\controller\DroneController.class
+be\odisee\citymesh\dao\DroneRepository.class
+be\odisee\citymesh\domain\Evenement.class
+be\odisee\citymesh\domain\Drone.class

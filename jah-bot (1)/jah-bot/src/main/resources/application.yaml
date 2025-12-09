@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: citymesh
+  ai:
+    openai:
+      # Haalt de API key op uit de Environment Variables die je in IntelliJ hebt ingesteld
+      api-key: ${SPRING_AI_OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini

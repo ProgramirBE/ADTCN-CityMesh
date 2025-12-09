@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: citymesh-crud-service
+  datasource:
+    # On garde la même URL, car XAMPP est aussi sur localhost:3306
+    url: jdbc:mysql://localhost:3306/citymesh_crud?createDatabaseIfNotExist=true
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
